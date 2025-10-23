@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+@theme {
+  --font-bold: "edBold", sans-serif;
+  --font-light: "edLight", sans-serif;
+  --font-regular: "edRegular", sans-serif;
+  --font-crypt: "CreakingCrypt", sans-serif;
+}
+@font-face {  
+  font-family: edBold;  
+  font-style: normal;  
+  font-weight: 200 700;  font-display: swap;  
+  src: url("../public/fonts/EverydaySans-Bold-Web.woff2") format("woff2");
+}
+@font-face {  
+  font-family: edLight;  
+  font-style: normal;  
+  font-weight: 200 700;  font-display: swap;  
+  src: url("../public/fonts/EverydaySans-Light-Web.woff2") format("woff2");
+}
+@font-face {  
+  font-family: edRegular;  
+  font-style: normal;  
+  font-weight: 200 700;  font-display: swap;  
+  src: url("../public/fonts/EverydaySans-Regular-Web.woff2") format("woff2");
+}
+@font-face {  
+  font-family: CreakingCrypt;  
+  font-style: normal;  
+  font-weight: 200 700;  font-display: swap;  
+  src: url("../public/fonts/CreakingCrypt-Regular.woff2") format("woff2");
+}
+body {
+  max-width: 100%;
+  overflow:hidden;
+  background-color: #001E60;
+  font-family: var(--font-edbold);
+  color: #001E60;
+  width: 100vw;
+  height: 100vh;
+  /*
+  font-family: var(--font-edMedium);
+  font-family: var(--font-edBold);
+  font-family: var(--font-creaking);
+  */
+}
+h1 {
+  font-size: 6vh;
+  color: #ffeedd;
+}
+h2 {
+  font-size: 1.5vh;
+  color: #773333;
+}
+p {
+
+}
+
+/*
+ module.exports = {
+  theme: {
+    extend: {
+      fontFamily: {
+        customSans: ['"Custom Sans"', 'sans-serif'], // Add a new font family
+        serif: ['"My Custom Serif"', 'serif'],     // Override default serif
+      },
+    },
+  },
+  // ... other configurations
+}; 
+*/

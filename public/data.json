@@ -1,0 +1,205 @@
+{
+	"contentRoutes": 
+		{
+			"scrollo": {
+				"title":"upcoming OD events scroll",
+				"animate":false,
+				"frames":1,
+				"icons":"/imgIcon/all/scrollo/frame1.png",
+				"isVideo": true
+			},
+			"oscillate2_1": {
+				"title":"osc 2 w/ qr",
+				"animate":false,
+				"frames":1,
+				"icons":"/imgIcon/all/oscillate2_1/frame1.png",
+				"isVideo": true
+			},
+			"oscillate2_2": {
+				"title":"osc. just flyerz",
+				"animate":false,
+				"frames":1,
+				"icons":"/imgIcon/all/oscillate2_2/frame1.png",
+				"isVideo": true
+			},
+			"halloween": {
+				"title":"snare tactics",
+				"animate":false,
+				"frames":1,
+				"icons":"/imgIcon/all/halloween/frame1.png",
+				"isVideo": true
+			},
+			"localsonly8": {
+				"title":"Locals Only Vol. 8",
+				"animate":false,
+				"frames":1,
+				"icons":"/imgIcon/all/localsonly8/frame1.png",
+				"isVideo": true
+			},
+			"trashgodz": {
+				"title":"tRaSh GoDz",
+				"animate":false,
+				"frames":1,
+				"icons":"/imgIcon/all/trashgodz/frame1.png",
+				"isVideo": true
+			}
+		},
+	"displayOptions":
+		[
+			{
+				"key":1,
+				"name":"003",
+				"msg":"screen3"
+			},
+			{
+				"key":2,
+				"name":"002",
+				"msg":"screen2"
+			},
+			{
+				"key":3,
+				"name":"001",
+				"msg":"screen1"
+			},
+			{
+				"key":4,
+				"name":"ALL",
+				"msg":"all"
+			}
+		],
+	"pictolightOptions":
+		[
+			{
+				"key":1,
+				"name":"003",
+				"msg":"3248W10"
+			},
+			{
+				"key":2,
+				"name":"002",
+				"msg":"420wwwW10"
+			},
+			{
+				"key":3,
+				"name":"001",
+				"msg":"666gangstars"
+			},
+						{
+				"key":4,
+				"name":"ALL",
+				"msg":"all"
+			}
+		],
+	"pictolightShelfOptions":
+		[
+			{
+				"key":1,
+				"name":"005",
+				"msg":"3248W10"
+			},
+			{
+				"key":2,
+				"name":"004",
+				"msg":"420wwwW10"
+			},
+			{
+				"key":3,
+				"name":"003",
+				"msg":"666gangstars"
+			},
+			{
+				"key":4,
+				"name":"002",
+				"msg":"666gangstars"
+			},
+			{
+				"key":5,
+				"name":"001",
+				"msg":"666gangstars"
+			},
+						{
+				"key":6,
+				"name":"ALL",
+				"msg":"all"
+			}			
+		],	
+	"pictolightSectionOptions":
+		[
+			{
+				"key":1,
+				"name":"003",
+				"msg":"3248W10"
+			},
+			{
+				"key":2,
+				"name":"002",
+				"msg":"420wwwW10"
+			},
+			{
+				"key":3,
+				"name":"001",
+				"msg":"666gangstars"
+			},
+			{
+				"key":4,
+				"name":"ALL",
+				"msg":"all"
+			}			
+		],
+	"productlightOptions":
+		[
+			{
+				"key":1,
+				"name":"003",
+				"msg":"3248W10"
+			},
+			{
+				"key":2,
+				"name":"002",
+				"msg":"420wwwW10"
+			},
+			{
+				"key":3,
+				"name":"001",
+				"msg":"666gangstars"
+			},
+						{
+				"key":4,
+				"name":"ALL",
+				"msg":"all"
+			}				
+		],
+	"productlightShelfOptions":
+		[
+			{
+				"key":1,
+				"name":"005",
+				"msg":"3248W10"
+			},
+			{
+				"key":2,
+				"name":"004",
+				"msg":"3248W10"
+			},
+			{
+				"key":3,
+				"name":"003",
+				"msg":"3248W10"
+			},
+			{
+				"key":4,
+				"name":"002",
+				"msg":"420wwwW10"
+			},
+			{
+				"key":5,
+				"name":"001",
+				"msg":"666gangstars"
+			},
+						{
+				"key":6,
+				"name":"ALL",
+				"msg":"all"
+			}			
+		]
+}
