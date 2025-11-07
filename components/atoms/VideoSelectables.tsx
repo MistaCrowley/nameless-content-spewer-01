@@ -78,16 +78,18 @@ const VideoSelectables = ({imgRules, processedImgUrls, currentScreen}) => {
 
 	return (
 		<div className="
-			grid 
-			w-full
+			grid
+			w-full h-[80vh]
 			text-left
 			-ml-[1.8vw] -mt-[3vh]
-			pl-[4.6vw]
+			pl-[4.6vw] pb-[43vh]
+			overflow-y-scroll overscroll-x-none
+			overflow-x-hidden
 		">
 
 			{displayKeys.map((key) => (
 				<div className="
-					w-full 
+					w-full
 				" 
 				key={key}>
 				<h1 key={key} className="

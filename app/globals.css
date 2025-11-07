@@ -33,9 +33,9 @@
 body {
   max-width: 100%;
   overflow:hidden;
-  background-color: #001E60;
+  background-color: #000;
   font-family: var(--font-edbold);
-  color: #001E60;
+  color: #000;
   width: 100vw;
   height: 100vh;
   /*

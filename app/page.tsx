@@ -50,7 +50,7 @@ export default function Home() {
         h-[12vh]
         
         "
-        style={{backgroundColor:'#fff'}}
+        style={{backgroundColor:'#000'}}
         >
         <div className="grid grid-cols-7 gap-0 w-full h-full
           items-center text-center place-items-center
@@ -88,7 +88,7 @@ export default function Home() {
           </div>
             <div className=" h-[90%] min-h-[1em] w-1 
               self-stretch m-auto"
-              style={{backgroundColor:'#4dbdf5'}}
+              style={{backgroundColor:'#000'}}
             >
             </div>
 
@@ -106,7 +106,7 @@ export default function Home() {
           </div>
             <div className=" h-[90%] min-h-[1em] w-1 
               self-stretch m-auto "
-              style={{backgroundColor:'#4dbdf5'}}
+              style={{backgroundColor:'#000'}}
             >
             </div>
           <div className=" z-500
@@ -130,7 +130,7 @@ export default function Home() {
           row-start-2
           row-span-8
         "
-        style={{backgroundColor:'#fff'}}
+        style={{backgroundColor:'#000'}}
         >
           
         </div>
