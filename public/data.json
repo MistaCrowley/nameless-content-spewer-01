@@ -1,6 +1,13 @@
 {
 	"contentRoutes": 
 		{
+			"junglevaniaqr": {
+				"title":"Junglevania QR",
+				"animate":false,
+				"frames":1,
+				"icons":"/imgIcon/all/junglevaniaqr/frame1.png",
+				"isVideo": true
+			},
 			"localsonly8qr": {
 				"title":"Locals Only Vol. 8 QR",
 				"animate":false,
