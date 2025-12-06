@@ -19,6 +19,11 @@ npm -v # should print `10.7.0`
 
 git clone https://github.com/BRDG-Software/frdg-ctrl-01
 
+to force clean a branch and pull from the main
+git reset --hard
+git pull
+git show ~~~see all changes 
+
 npm install 
 
 npm run dev:socket

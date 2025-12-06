@@ -84,7 +84,7 @@ key="my-animated-div" // Important: Direct children of AnimatePresence must have
       ">
       <Suspense>
         <ContentScroller 
-          image={"localsonly8qr"}
+          image={"headlinersonly"}
           tellParentHideSideLoader={hideSideLoader}
           routeRules={routeRules}
           />

@@ -1,6 +1,13 @@
 {
 	"contentRoutes": 
 		{
+			"headlinersonly": {
+				"title":"Headliners Only",
+				"animate":false,
+				"frames":1,
+				"icons":"/imgIcon/all/headlinersonly/frame1.png",
+				"isVideo": true
+			},
 			"junglevaniaqr": {
 				"title":"Junglevania QR",
 				"animate":false,
