@@ -1,6 +1,13 @@
 {
 	"contentRoutes": 
 		{
+			"localsonly9": {
+				"title":"Locals Only 9",
+				"animate":false,
+				"frames":1,
+				"icons":"/imgIcon/all/localsonly9/frame1.png",
+				"isVideo": true
+			},
 			"oscillate3": {
 				"title":"oscillate 3",
 				"animate":false,

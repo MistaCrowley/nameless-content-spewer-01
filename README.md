@@ -1,6 +1,9 @@
 ## Getting Started
 Server Pi needs to run next server in dev mode and mosquitto broker
 run "npm run dev:socket" as a pm2 process
+
+see the content on: 
+	localhost:3000/display?screen=1 
 verify it's running in cli:
 		- pm2 ls
 		- pm2 logs

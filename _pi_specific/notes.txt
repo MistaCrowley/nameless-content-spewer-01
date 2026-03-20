@@ -24,6 +24,8 @@ git reset --hard
 git pull
 git show ~~~see all changes 
 
+shift + q to exit git show or git status
+
 npm install 
 
 npm run dev:socket
