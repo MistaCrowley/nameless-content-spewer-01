@@ -1,6 +1,13 @@
 {
 	"contentRoutes": 
 		{
+			"oscillate3": {
+				"title":"oscillate 3",
+				"animate":false,
+				"frames":1,
+				"icons":"/imgIcon/all/oscillate3/frame1.png",
+				"isVideo": true
+			},
 			"headlinersonly": {
 				"title":"Headliners Only",
 				"animate":false,
