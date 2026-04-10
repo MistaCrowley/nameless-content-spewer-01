@@ -235,7 +235,7 @@ const ContentScroller = ({image, routeRules, tellParentHideSideLoader}) => {
       animationTimerRef.current = null
     }
   }
-  let currentImage = "oscillate3"
+  let currentImage = "dsynth1"
   const currentFrame = 1    // 1 to last frame, looping
   const numberOfFrames = 1
   const frameTime = 5000

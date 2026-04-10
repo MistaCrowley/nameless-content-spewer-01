@@ -1,82 +1,101 @@
 {
 	"contentRoutes": 
-		{
+		{	
+			"dsynth1": {
+				"title":"Dungeon Synth",
+				"animate":false,
+				"frames":1,
+				"icons":"/imgIcon/all/dsynth1/frame1.png",
+				"isVideo": true,
+				"isAvailable": true
+			},
 			"localsonly9": {
 				"title":"Locals Only 9",
 				"animate":false,
 				"frames":1,
 				"icons":"/imgIcon/all/localsonly9/frame1.png",
-				"isVideo": true
+				"isVideo": true,
+				"isAvailable": true
 			},
 			"oscillate3": {
 				"title":"oscillate 3",
 				"animate":false,
 				"frames":1,
 				"icons":"/imgIcon/all/oscillate3/frame1.png",
-				"isVideo": true
+				"isVideo": true,
+				"isAvailable": false
 			},
 			"headlinersonly": {
 				"title":"Headliners Only",
 				"animate":false,
 				"frames":1,
 				"icons":"/imgIcon/all/headlinersonly/frame1.png",
-				"isVideo": true
+				"isVideo": true,
+				"isAvailable": true
 			},
 			"junglevaniaqr": {
 				"title":"Junglevania QR",
 				"animate":false,
 				"frames":1,
 				"icons":"/imgIcon/all/junglevaniaqr/frame1.png",
-				"isVideo": true
+				"isVideo": true,
+				"isAvailable": true
 			},
 			"localsonly8qr": {
 				"title":"Locals Only Vol. 8 QR",
 				"animate":false,
 				"frames":1,
 				"icons":"/imgIcon/all/localsonly8qr/frame1.png",
-				"isVideo": true
+				"isVideo": true,
+				"isAvailable": true
 			},
 			"localsonly8": {
 				"title":"Locals Only Vol. 8",
 				"animate":false,
 				"frames":1,
 				"icons":"/imgIcon/all/localsonly8/frame1.png",
-				"isVideo": true
+				"isVideo": true,
+				"isAvailable": true
 			},
 			"oscillate2_1": {
 				"title":"osc 2 w/ qr",
 				"animate":false,
 				"frames":1,
 				"icons":"/imgIcon/all/oscillate2_1/frame1.png",
-				"isVideo": true
+				"isVideo": true,
+				"isAvailable": true
 			},
 			"oscillate2_2": {
 				"title":"osc. just flyerz",
 				"animate":false,
 				"frames":1,
 				"icons":"/imgIcon/all/oscillate2_2/frame1.png",
-				"isVideo": true
+				"isVideo": true,
+				"isAvailable": true
 			},
 			"halloween": {
 				"title":"snare tactics",
 				"animate":false,
 				"frames":1,
 				"icons":"/imgIcon/all/halloween/frame1.png",
-				"isVideo": true
+				"isVideo": true,
+				"isAvailable": true
 			},
 			"trashgodz": {
 				"title":"tRaSh GoDz",
 				"animate":false,
 				"frames":1,
 				"icons":"/imgIcon/all/trashgodz/frame1.png",
-				"isVideo": true
+				"isVideo": true,
+				"isAvailable": true
 			},
 			"scrollo": {
 				"title":"upcoming OD events scroll",
 				"animate":false,
 				"frames":1,
 				"icons":"/imgIcon/all/scrollo/frame1.png",
-				"isVideo": true
+				"isVideo": true,
+				"isAvailable": true
 			}
 		},
 	"displayOptions":

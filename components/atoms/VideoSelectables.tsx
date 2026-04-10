@@ -7,6 +7,7 @@ import data from '@/public/data.json'
 
 const VideoSelectables = ({imgRules, processedImgUrls, currentScreen}) => {
 	const displayKeys = Object.keys(imgRules)
+	console.log(imgRules)
 	const usernum = getRandomInt(9999,99999)
 	const userBuilt = "controller" + usernum
 	//console.log(userBuilt)
@@ -75,21 +76,26 @@ const VideoSelectables = ({imgRules, processedImgUrls, currentScreen}) => {
 		socket.emit("message", data)
 		//console.log(message)
 	}
-
+	const thingo = true
 	return (
 		<div className="
 			grid
-			w-full h-[80vh]
+			w-full h-[84vh]
 			text-left
 			-ml-[1.8vw] -mt-[3vh]
 			pl-[4.6vw] pb-[43vh]
 			overflow-y-scroll overscroll-x-none
 			overflow-x-hidden
+			
 		">
-
 			{displayKeys.map((key) => (
+				<div key={key}>
+				{imgRules[key].isAvailable === true &&
 				<div className="
-					w-full
+					w-[95vw]
+					bg-[#101022]
+					h-[30vh]
+					mb-[1vh]
 				" 
 				key={key}>
 				<h1 key={key} className="
@@ -97,13 +103,14 @@ const VideoSelectables = ({imgRules, processedImgUrls, currentScreen}) => {
 					h-[3.5vh] 
 				"
 				style={{
-	    			fontSize:'5vw'
+	    			fontSize:'2vh'
 	    		}}
 				> 
-					{imgRules[key].title} </h1>
+					{imgRules[key].title}
+				</h1>
 					<div className="
-						w-[92vw] 
-						h-[10vh] 
+						w-[90vw] 
+						h-[10vh] mb-[15vh] ml-[2vw]
 						"
 						onClick={() => doContent(key)}
 						>
@@ -115,13 +122,14 @@ const VideoSelectables = ({imgRules, processedImgUrls, currentScreen}) => {
 				            priority
 			            	loading="eager"
 				            alt="a frame"
-				            style={{width:'90vw', height: 'auto'}}
+				            style={{width:'90vw', height: '25vh'}}
 						/>
 					</div>				
-				</div>
+				</div> }
+			</div>
 			))}
-			
 		</div>
+
 	)
 }
 

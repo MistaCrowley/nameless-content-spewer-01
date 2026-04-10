@@ -12,16 +12,16 @@
   width: 241px;
   height: 120px;
   */
-  width: 24vw;
-  height: 12vw;
-  margin-bottom: 5.5vh;
+  width: 3vw;
+  height: 1.4vw;
+  margin-bottom: 4vh;
 }
 .slider {
   /*transform: scale(100%);*/
   position: absolute;
   cursor: pointer;
   outline: .2vw solid white;
-  outline-offset: .3vw;
+  outline-offset: .1vw;
   top: 0;
   left: 0;
   right: 0;
@@ -33,9 +33,10 @@
 .slider:before {
   position: absolute;
   content: "";
-  height:9.6vw;
-  width: 9.6vw;
-  left: 12.6vw;
+  height:.6vw;
+  width: .6vw;
+  left: 0.6vw;
+  top: -2.8vh;
   bottom: .5vw;
   /*
   height:94px;
@@ -45,7 +46,7 @@
   */
   background-color: white;
   border-color: #d9d9d9;
-  border-width:1vw;
+  border-width:.8vw;
   -webkit-transition: .4s;
   transition: .4s;
 }
@@ -57,9 +58,9 @@ input:focus + .slider {
 }
 
 input:checked + .slider:before {
-  -webkit-transform: translateX(-12vw);
-  -ms-transform: translateX(-12vw);
-  transform: translateX(-12vw);
+  -webkit-transform: translateX(-1.3vw);
+  -ms-transform: translateX(-1.3vw);
+  transform: translateX(-1.3vw);
 }
 
 /* Rounded sliders */

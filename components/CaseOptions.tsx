@@ -68,7 +68,7 @@ const CaseOptions = ({ }) => {
 				w-full 
 				h-screen
 				absolute
-				top-[8vh]
+				top-[6vh]
 			">
 				<CaseOptionsBody
 					selectionMade={selectionMade}
