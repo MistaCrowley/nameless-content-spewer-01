@@ -1,19 +1,27 @@
 {
 	"contentRoutes": 
 		{	
-			"dsynth1": {
-				"title":"Dungeon Synth",
-				"animate":false,
-				"frames":1,
-				"icons":"/imgIcon/all/dsynth1/frame1.png",
-				"isVideo": true,
-				"isAvailable": true
-			},
 			"localsonly9": {
 				"title":"Locals Only 9",
 				"animate":false,
 				"frames":1,
 				"icons":"/imgIcon/all/localsonly9/frame1.png",
+				"isVideo": true,
+				"isAvailable": true
+			},
+			"locals10": {
+				"title":"Locals Only 10",
+				"animate":false,
+				"frames":1,
+				"icons":"/imgIcon/all/locals10/frame1.png",
+				"isVideo": true,
+				"isAvailable": true
+			},
+			"dsynth1": {
+				"title":"Dungeon Synth",
+				"animate":false,
+				"frames":1,
+				"icons":"/imgIcon/all/dsynth1/frame1.png",
 				"isVideo": true,
 				"isAvailable": true
 			},

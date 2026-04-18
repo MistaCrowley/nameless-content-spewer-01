@@ -84,7 +84,7 @@ key="my-animated-div" // Important: Direct children of AnimatePresence must have
       ">
       <Suspense>
         <ContentScroller 
-          image={"oscillate3"}
+          image={"localsonly9"}
           tellParentHideSideLoader={hideSideLoader}
           routeRules={routeRules}
           />
