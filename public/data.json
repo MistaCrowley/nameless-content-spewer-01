@@ -9,6 +9,14 @@
 				"isVideo": true,
 				"isAvailable": true
 			},
+			"barcore1": {
+				"title":"Barcore X OD",
+				"animate":false,
+				"frames":1,
+				"icons":"/imgIcon/all/barcore1/frame1.png",
+				"isVideo": true,
+				"isAvailable": true
+			},
 			"jv3": {
 				"title":"Junglevania 3",
 				"animate":false,
