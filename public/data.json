@@ -1,11 +1,19 @@
 {
 	"contentRoutes": 
 		{	
-			"localsonly9": {
-				"title":"Locals Only 9",
+			"decidetoday1": {
+				"title":"Decide Today",
 				"animate":false,
 				"frames":1,
-				"icons":"/imgIcon/all/localsonly9/frame1.png",
+				"icons":"/imgIcon/all/decidetoday1/frame1.png",
+				"isVideo": true,
+				"isAvailable": true
+			},
+			"jv3": {
+				"title":"Junglevania 3",
+				"animate":false,
+				"frames":1,
+				"icons":"/imgIcon/all/jv3/frame1.png",
 				"isVideo": true,
 				"isAvailable": true
 			},
@@ -14,6 +22,14 @@
 				"animate":false,
 				"frames":1,
 				"icons":"/imgIcon/all/locals10/frame1.png",
+				"isVideo": true,
+				"isAvailable": true
+			},
+			"localsonly9": {
+				"title":"Locals Only 9",
+				"animate":false,
+				"frames":1,
+				"icons":"/imgIcon/all/localsonly9/frame1.png",
 				"isVideo": true,
 				"isAvailable": true
 			},

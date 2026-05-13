@@ -252,7 +252,7 @@ const FrameScroller = ({screen, isVideo, image, prefixo, routeRules, imgWidth, s
 			    <video
 			    	width="1920"
 			    	height="1080"
-			    	controls preload="none"
+			    	preload="none"
 			    	autoPlay={true} 
 			    	loop={true}
 			    	muted={true}
@@ -277,7 +277,7 @@ const FrameScroller = ({screen, isVideo, image, prefixo, routeRules, imgWidth, s
 			    <video
 			    	width="1920"
 			    	height="1080"
-			    	controls preload="none"
+			    	preload="none"
 			    	autoPlay={true} 
 			    	loop={true}
 			    	muted={true}
