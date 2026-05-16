@@ -1,11 +1,11 @@
 {
 	"contentRoutes": 
 		{	
-			"decidetoday1": {
-				"title":"Decide Today",
+			"jv3": {
+				"title":"Junglevania 3",
 				"animate":false,
 				"frames":1,
-				"icons":"/imgIcon/all/decidetoday1/frame1.png",
+				"icons":"/imgIcon/all/jv3/frame1.png",
 				"isVideo": true,
 				"isAvailable": true
 			},
@@ -17,11 +17,11 @@
 				"isVideo": true,
 				"isAvailable": true
 			},
-			"jv3": {
-				"title":"Junglevania 3",
+			"decidetoday1": {
+				"title":"Decide Today",
 				"animate":false,
 				"frames":1,
-				"icons":"/imgIcon/all/jv3/frame1.png",
+				"icons":"/imgIcon/all/decidetoday1/frame1.png",
 				"isVideo": true,
 				"isAvailable": true
 			},
